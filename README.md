@@ -1,5 +1,8 @@
-heroku-buildpack-imagemagick-webp
+heroku-buildpack-imagemagick-webp-u
 ===========================
+
+This buildpack take [heroku-buildpack-imagemagick-webp](https://github.com/nrj/heroku-buildpack-imagemagick-webp)  but the dependencies have been updated.
+
 
 Use [ImageMagick](www.imagemagick.org) built with [libwebp](https://code.google.com/p/webp/) inside a Heroku _Cedar_ environment. This buildpack will download both libraries, build them from source and install them along side your app. Your ```$PATH``` and ```$LD_LIBRARY_PATH``` will also be updated to use this version of ImageMagick instead of the default Heroku one, which does _not_ currently have libwebp support.
 
